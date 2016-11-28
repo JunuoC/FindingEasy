@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "811617831043",
+    "firebase_url": "https://findingeasy-6a2c2.firebaseio.com",
+    "project_id": "findingeasy-6a2c2",
+    "storage_bucket": "findingeasy-6a2c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:811617831043:android:145eefdb3bd24756",
+        "android_client_info": {
+          "package_name": "com.example.nuonuo.findingeasy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "811617831043-tn6hd7mau7u14hsm3mh6ib7847hepprq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHLG-CXcNoqXXGbpr_8Widnq8MaAy1Dg0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

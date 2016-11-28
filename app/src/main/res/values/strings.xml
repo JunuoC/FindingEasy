@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">FindingEasy</string>
+    <color name="white">#003366</color>
+    <string name="banner_ad_unit_id">ca-app-pub-2988059555730671/4456037342</string>
+    <string name="spinner_title">select category</string>
+    <string name="signin_button">sign in</string>
+    <string name="signup_button">sign out</string>
+
+    <string-array name="spinner_entries">
+        <item>Book</item>
+        <item>MakeUp</item>
+        <item>Food</item>
+        <item>Clothing</item>
+        <item>Others</item>
+    </string-array>
+</resources>

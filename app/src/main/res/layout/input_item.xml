@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:weightSum="1"
+              android:background="@color/white">
+
+
+    <TextView
+        android:text="Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:id="@+id/item_title"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_title_input"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:paddingLeft="13dp"
+        android:background="@drawable/rounded_edittext" />
+
+
+    <TextView
+        android:text="Location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:id="@+id/item_gps"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:id="@+id/item_gps_input"
+        android:background="@drawable/rounded_edittext"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:paddingLeft="13dp"
+        />
+
+    <TextView
+        android:text="Category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:id="@+id/item_category"
+        />
+
+
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="25dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:id="@+id/spinner"
+        android:prompt="@string/spinner_title"
+        android:entries="@array/spinner_entries"
+        android:paddingLeft="13dp"
+
+        />
+
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:id="@+id/image_item"
+        android:layout_weight="0.86"/>
+
+    <Button
+        android:text="Confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:id="@+id/button_confirm"
+        android:background="@drawable/button_with_shadow"
+        />
+
+
+</LinearLayout>
